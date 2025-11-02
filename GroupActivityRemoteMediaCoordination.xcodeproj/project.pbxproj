@@ -6,13 +6,32 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		98B9CF002EB6FCBC00CF8DFC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 98B9CEFF2EB6FCBC00CF8DFC /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		98B9CEA32EB5AA3300CF8DFC /* GroupActivityRemoteMediaCoordination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupActivityRemoteMediaCoordination.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B9CEFF2EB6FCBC00CF8DFC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		98B9CF012EB7050000CF8DFC /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		98B9CF2F2EB7063E00CF8DFC /* Exceptions for "GroupActivityRemoteMediaCoordination" folder in "GroupActivityRemoteMediaCoordination" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 98B9CEA22EB5AA3300CF8DFC /* GroupActivityRemoteMediaCoordination */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		98B9CEA52EB5AA3300CF8DFC /* GroupActivityRemoteMediaCoordination */ = {
+		98B9CF272EB7063E00CF8DFC /* GroupActivityRemoteMediaCoordination */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				98B9CF2F2EB7063E00CF8DFC /* Exceptions for "GroupActivityRemoteMediaCoordination" folder in "GroupActivityRemoteMediaCoordination" target */,
+			);
 			path = GroupActivityRemoteMediaCoordination;
 			sourceTree = "<group>";
 		};
@@ -32,7 +51,9 @@
 		98B9CE9A2EB5AA3300CF8DFC = {
 			isa = PBXGroup;
 			children = (
-				98B9CEA52EB5AA3300CF8DFC /* GroupActivityRemoteMediaCoordination */,
+				98B9CF012EB7050000CF8DFC /* demo.gif */,
+				98B9CEFF2EB6FCBC00CF8DFC /* README.md */,
+				98B9CF272EB7063E00CF8DFC /* GroupActivityRemoteMediaCoordination */,
 				98B9CEA42EB5AA3300CF8DFC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +82,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				98B9CEA52EB5AA3300CF8DFC /* GroupActivityRemoteMediaCoordination */,
+				98B9CF272EB7063E00CF8DFC /* GroupActivityRemoteMediaCoordination */,
 			);
 			name = GroupActivityRemoteMediaCoordination;
 			packageProductDependencies = (
@@ -109,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B9CF002EB6FCBC00CF8DFC /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,11 +273,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GroupActivityRemoteMediaCoordination/GroupActivityRemoteMediaCoordination.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NLTYK5T6U3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GroupActivityRemoteMediaCoordination/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -269,11 +293,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.GroupActivityRemoteMediaCoordination;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -283,11 +310,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GroupActivityRemoteMediaCoordination/GroupActivityRemoteMediaCoordination.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NLTYK5T6U3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GroupActivityRemoteMediaCoordination/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,11 +330,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.GroupActivityRemoteMediaCoordination;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

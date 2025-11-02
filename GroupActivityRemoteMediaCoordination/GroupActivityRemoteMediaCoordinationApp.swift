@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct GroupActivityRemoteMediaCoordinationApp: App {
+    @State private var manager = GroupActivityManager()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(manager)
         }
     }
 }
