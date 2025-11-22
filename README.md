@@ -8,6 +8,6 @@ To test the app,
 3. Open the app and choose a video to play. 
 
 
-For more details, please refer to my article [SwiftUI: Group Activity for REMOTE Synchronized Media Playback]()
+For more details, please refer to my article [SwiftUI: Group Activity for REMOTE Synchronized Media Playback](https://medium.com/@itsuki.enjoy/swiftui-group-activity-for-remote-synchronized-media-playback-5fb67d282a52)
 
 ![](./demo.gif)
